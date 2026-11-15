@@ -1,0 +1,12 @@
+{
+  "name": "atelie-da-beleza-server",
+  "version": "1.0.0",
+  "description": "Servidor do site Ateliê da Beleza: serve o site estático e a API de agendamento (sem dependências externas).",
+  "main": "server.js",
+  "private": true,
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning test.js"
+  }
+}
